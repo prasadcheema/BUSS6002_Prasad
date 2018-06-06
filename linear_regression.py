@@ -23,9 +23,13 @@ regr = LinearRegression()
 
 # Train the model using the training sets
 regr.fit(diabetes_X_train, diabetes_y_train)
-
+#hi
 # Make predictions using the testing set
 diabetes_y_pred = regr.predict(diabetes_X_test)
 
 # The coefficients
 print('Coefficients: \n', regr.coef_)
+
+
+
+
