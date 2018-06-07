@@ -5,6 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the diabetes dataset
 diabetes = load_diabetes()
+#change
 
 
 # Use only one feature
